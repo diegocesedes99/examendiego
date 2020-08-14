@@ -1,0 +1,169 @@
+body{
+    margin: 0px;
+}
+.wrapp{
+    width: 900px;
+    margin: 0 auto;
+}
+h1{
+    margin-top: 0;
+    font-size: 25px;
+}
+h3{
+    color: #8c0013;
+    margin-top: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.more-info{
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 23px;
+	text-decoration: none;
+    position: relative;
+    float: right;
+}
+.more-info:hover{
+	text-decoration: underline;
+}
+/*--------Header--------*/
+#color-Head{
+    background-color: white;
+}
+#head{
+    padding-bottom: 0px;
+}
+#logo{
+    float: left;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+#menu-lista{
+    float: right;
+    margin-right: 45px;
+    margin-top: 10px;
+    border-bottom: 6px solid #676766;
+    
+}
+#menu-lista li{
+    list-style: none;
+    float: left;
+}
+#menu-lista li + li{
+    margin-left: 35px;
+}
+#menu-lista a{
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+#texto1{
+    margin-top: 20px;
+    color: red;
+}
+#texto{
+    margin-top: 30px;
+    color: red;
+}
+#p{
+    margin-top: 10px;
+    color: gray;
+}
+#texto h2{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+#texto a{
+    padding: 30px 82px;
+    background-color: #eb7d4b;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+/*--------Content--------*/
+
+#content{
+    padding-bottom: 10px;
+}
+#cellphonesprin h2{
+    text-transform: uppercase;
+    color: #380106;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+#cellphonesprin p{
+    color: #380106;
+    text-align: center;
+}
+h4{
+    margin-left: 30px;
+    text-align: justify;
+}
+#ph3{
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.img1{
+    float: right;
+    margin-right: 20px;
+}
+.img2{
+    float: right;
+    margin-right: 30px;
+
+}
+#cellphones{
+    text-align: center;
+    color: #696969;
+    padding-top: 10px;
+}
+#blackberry{
+    background-color: #f5f3f3;
+    float: left;
+    width: 442px;
+    border-radius: 6px solid #cdcdcd;
+}
+#ipod{
+    background-color: #f5f3f3;
+    float: right;
+    width: 442px;
+    border-radius: 2px solid #cdcdcd;
+}
+
+
+/*--------Footer--------*/
+#color-footer{
+    background-color: #e2e0e0;
+}
+#footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 450px;
+    color: red;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
